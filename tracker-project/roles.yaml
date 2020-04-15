@@ -1,0 +1,22 @@
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata: 
+  name: for-new-joinee
+  namespace: default
+rules:
+  - apiGroups: [""]
+    resources: ["*"]
+    verbs: ["get","list","watch"]
+
+---
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: RB-new-joinee
+subjects:
+  - kind: User
+    name: sai-iowa
+roleRef:
+  kind: Role
+  name: for-new-joinee
+  apiGroup: rbac.authorization.k8s.io
