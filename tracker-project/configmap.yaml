@@ -4,5 +4,6 @@ metadata:
   name: DB_Credentials
   namespace: default
 data:
-  key1: value
-  key2: value
+  database.properties: |
+    key.1=value
+    key.2=value
