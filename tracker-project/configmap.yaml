@@ -1,0 +1,8 @@
+apiversion: v1
+kind: configMap
+metadata: 
+  name: DB_Credentials
+  namespace: default
+data:
+  key1: value
+  key2: value
