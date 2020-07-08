@@ -1,2 +1,2 @@
 # Kubernetes-project
-Kuberentes yaml files
+Production grade Kubernetes cluster with monitoring 
