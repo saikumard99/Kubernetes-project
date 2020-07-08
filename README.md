@@ -1,2 +1,2 @@
 # Kubernetes-project
-Kuberentes yaml files
+Development grade Kubernetes cluster
